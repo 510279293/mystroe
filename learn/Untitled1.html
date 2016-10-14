@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>拖拽上传</title>
+  <style>
+     .box{margin:100px auto;
+	      width:500px;
+		  height:500px;
+		  border:2px dashed red;
+	 }
+     
+
+
+
+
+  </style>
+ </head>
+ <body>
+  <div class="box"></div>
+ </body>
+ <script>
+    (function(){
+	    var box = document.querySelector(".box");
+		box.ondragenter=function(e){
+			e.preventDefault();
+		}
+		box.ondragleave=function(e){
+			e.preventDefault();
+		}
+        box.ondargover=function(e){
+			e.preventDefault();
+		}
+        box.ondrop=function(e){
+			e.preventDefault();
+		    var file = e.dataTransfer.files;
+			var fd=new FileReader();
+			fd.readAsDataURL(files[0]);
+			fd.onload=function(){
+			   var img=document.createElement("img");
+               img.style.width="400px";
+			   img.style.height="400p0x";
+			   img.src=fd.result;
+			   box.appendChild(img);
+			}
+		}
+
+
+
+        function uploadPic(file){
+		    var xhr=new XHLHttpRequest();
+
+		}
+
+
+	})()
+ </script>
+</html>
