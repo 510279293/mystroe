@@ -1,0 +1,1 @@
+function fn1(n,r){return n+r}var a=10,b=100;

@@ -1,0 +1,1 @@
+function fn1(n,f){return n+f}

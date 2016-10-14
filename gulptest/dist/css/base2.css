@@ -1,0 +1,40 @@
+*{margin:0; padding:0;}
+i{font-style: normal;}
+a{text-decoration: none;}
+body{font-family: "微软雅黑";}
+.contain-back{width:100%;}
+.box{width:640px;height:960px;margin:0 auto;position: relative;}
+.contain{width:640px;height:960px;margin:0 auto;float:left;position:absolute;right:0px;overflow: hidden;}
+.contain-top{height:40px;width:640px;margin:0 auto;}
+.contain .shoucang{width:100%;height:89px;background:#3e5656;line-height: 89px;font-size:36px;color:#fff;font-family: "微软雅黑";position:relative;border-bottom: 1px solid #000;}
+.contain .shoucang .mysc {width:270px;height:70px;background:url(img/jiantou.png) 20px 20px no-repeat; text-indent: 102px;float:left;cursor: pointer;}
+.contain .shoucang  i{width:60px;height:60px;position:absolute;left:470px;top:16px;background:url(img/search.png) center no-repeat;}
+.contain .shoucang  .qiu{width:60px;height:60px;position:absolute;left:560px;top:16px;background:url(img/qiu.png) center no-repeat;}
+.contain .list{width:100%;height:707px;overflow-y:auto;overflow-x: hidden;background:url(img/bg1.gif) 50% 50% no-repeat; }
+
+.contain .list .listitem{width:100%;height:100px;border-bottom: 1px solid #FFFFFF;position: relative;}
+.contain .list .listitem i{width:40px;height:40px;position:absolute;left:570px;top:30px;background: url(img/clear.png) center no-repeat;}
+.contain .list .listitemon{width:100%;height:100px;border-bottom: 1px solid #FFFFFF;background:lightcyan;opacity:0.5}
+.contain .list .listitem dl{position:relative;width:640px;height:100px;}
+.contain .list .listitem dt{float:left;position:absolute; width:90px;height:100px;line-height: 100px;text-align:center;color:#fff;font-size:30px;}
+.contain .list .listitem dd{float:left;position:absolute; width:500px;height:85px;line-height: 36px;color:#fff;font-size:24px;top:15px;left:90px;}
+.contain .playban{width:100%;height:98px;background:#02223b;position: relative;}
+.contain .playban p{width:100%;height:3px;background:pink;position:relative;left:0px;top:0px;}
+.contain .playban p i{position:absolute; width:16px;height:16px;border-radius:8px; background: green; top:-6px;}
+.contain .playban a{position: absolute;width:60px;height:60px;left:30px;top:18px;cursor: pointer;}
+.contain .playban .prev{position: absolute;width:60px;height:60px;left:150px;top:20px;background:url(img/prev.png) center no-repeat;cursor: pointer;}
+.contain .playban .play{position: absolute;width:0px;height:0px;left:305px;top:30px;border-top:20px solid rgba(0,0,0,0);border-left:35px solid #fff; border-bottom:20px solid rgba(0,0,0,0); cursor: pointer;}
+.contain .playban .pause{position:absolute;width:6px;height:36px;left:305px;top:30px;border-left:8px solid #fff;border-right:8px solid #fff;}
+.contain .playban .next{position: absolute;width:60px;height:60px;left:427px;top:20px;background:url(img/next.png) center no-repeat;cursor: pointer;}
+.contain .playban .love{position: absolute;width:60px;height:60px;left:549px;top:20px;background:url(img/love.png) center no-repeat;cursor: pointer;}
+
+.set{width:360px;height:895px;float:left;background:#343434;position:absolute;overflow: hidden;left:0px;}
+.set-top{width:360px;height:90px;border-bottom:1px solid #525252;}
+.set-top a{width:65px;height:65px;background:url(img/tx.png) center no-repeat;float:left;margin-left:20px;margin-top:10px;margin-right:20px;}
+.set-top p{color:#fff;font-size:24px;line-height: 30px;margin-top:10px;float:left;}
+.set-top .settp2{font-size:18px;color:#cecece;margin-top:5px;}
+.set .setitem{width:100%;}
+.set .setitem dl{width:100%;height:68px;cursor: pointer; border-top:1px solid #5e5e5e;border-bottom:1px solid #1d1d1d; ;}
+.set .setitem dl:hover{background:#249eb6;}
+.set .setitem dl dt{float:left; width:40px;height:40px;margin:18px 22px 0px 32px;text-align: center;line-height: 40px;}
+.set .setitem dl dd{float:left;color:#fff;font-size:22px;margin-top:20px;}
