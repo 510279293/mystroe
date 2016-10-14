@@ -1,0 +1,49 @@
+*{margin:0;padding:0;}
+   li{list-style: none;}
+   i{font-style: normal;}
+   a{text-decoration: none;color:#000;}
+   body{font-family: "华文细黑", STHeiti Light, STXihei, "华文细黑", SimHei, "黑体" !important;}
+.top-back{width:100%;background: #390c20;padding:0px 5%;}
+.top{height:46px;}
+.top .logo{float:left;width:209px;height:46px;margin-right:2%;line-height: 46px; background:url(../img/logo.png) center no-repeat ;background-size: 100% 26px;}
+.top ul li{color:#9cc71a;float:left;line-height:46px;position: relative;}
+.top ul li a{color:#fff;float:left;line-height:46px;color:#fff;font-size:14px;padding:0px 10px;}
+.top ul .aon{background:#1e0611}
+.top ul i{width:0px;height:0px;margin-top:10px;display:inline-block;margin-left:8px; border-top:5px solid #fff;border-left:4px solid rgba(0,0,0,0);border-right:4px solid rgba(0,0,0,0);}
+.top .tright{overflow: hidden;height:100%; float:right;text-align: right;}
+.top .tright a{color:#fff;margin:0px 4%;line-height: 46px;font-size: 14px; }
+.top .tright .car{background: url(../img/car.png) -8% center no-repeat;padding-left:15%; }
+.top .titem{z-index:5;position: absolute;top:100%;width:158px;display:none;box-shadow: 0 6px 12px rgba(0,0,0,0.175);border: 1px solid rgba(0,0,0,0.15);background: #fff;text-indent: 20px;}
+.top .titem p{height:24px;color:#000;font-size:14px;line-height: 24px;}
+.top .titem p:hover{background:#eee;}
+
+
+   .top2{width:100%;height:46px; background: #390c20;} 
+   .top2　p{height:46px;overflow: hidden;padding:0 5%;width:100%;}
+   .top2 .top2p1{height:46px;}
+   .top2 .top2p1 .top2a1{width:20%;height:100%;color:greenyellow;font-size:18px;line-height:46px;float:left;}
+   .top2 .logo2{width:80%;height:100%;float:left;background:url(../img/logo.png) center no-repeat;background-size:auto  26px;}
+   .top .top2phone{width:20%;height:100%;float:left;}
+   .top2 .top2p2{display: flex; box-sizing: border-box;justify-content: space-between;height:46px;padding:0 5%;border-bottom:1px solid #000 ;}
+   .top2 .top2p2 a{font-size:12px;line-height: 46px;}
+
+@media only screen and (min-width:1012px ) {
+	.top{width:90%;}
+	.top2{display: none;}
+	.top .tright{width:24%;}
+}
+@media only screen and (max-width:1011px ) {
+	.top2{display: none;}
+    .top .tright{float:left;width:24%;}
+	.top{width:100%;}
+	.top ul li a{padding:0px 5px;}
+	.top .tright a{float:left;}
+	.top .tright .car{display: none;}
+	.top .tright .car1{width:40px;height:40px; display:block;background: url(../img/car.png) -8% center no-repeat;padding-left:15%;}
+    .curcity{display:none; }
+
+}
+@media only screen and (max-width:853px ) {
+	.top{display: none;}
+	.top2{display: block;}
+}
